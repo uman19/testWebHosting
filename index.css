@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section {
+        flex: 1;
+        margin: 0 10px;
+    }
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 1500px;
+    width: 100%;
+    /* background: linear-gradient(to right,#fcc5dd,#fcdec6,#fce4bc,#fcecbc,#fcf1b3,#fcd4cc,#fcd4d4,#fcb4ec,#fcbcec); */
+    background: linear-gradient(to right,#fcf1b3,#fcbcec);
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: #ff7474;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size:22px;
+    font-family: system-ui, sans-serif;
+}
+.body{
+    height: 750px;
+    width: 100%;
+    display: flex;
+}
+.b1{
+    height: 750px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b11{
+    font-size: 24px;
+    font-family: system-ui, sans-serif;
+}
+.b12{
+    font-size: 16px;
+    font-family: system-ui, sans-serif;
+}
+.b13 > button{
+  height: 50px;
+  width: 230px;
+  color: white;
+  background-color: #ff7171;
+  border: 0;
+  font-size: 16px;
+}
+.b2{
+    height: 750px;
+    width: 50%;
+}
+.footer{
+    height: 750px;
+    width: 100%;
+    display: flex;
+}
+.f1{
+    height: 750px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f11{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.f111,.f112{
+    margin: 10px;
+}
+.f121{
+    margin: 10px;
+}
+.f2{
+    height: 750px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f21{
+    height: 215px;
+    width: 450px;
+    background-color: #ff7171;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f22{
+    height: 215px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.f211{
+    font-size: 16px;
+    font-family: system-ui, sans-serif;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.f212{
+    font-size: 20px;
+    font-family: system-ui, sans-serif;
+}
+.f213{
+    font-size: 16px;
+    font-family: system-ui, sans-serif;
+}
